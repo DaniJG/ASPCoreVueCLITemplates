@@ -9,4 +9,4 @@ It contains 3 different ways to integrate an ASP.NET Core project with a project
 - **alternative-spa-template**. Variant of the earlier template where the Vue development server is the one proxying requests to the ASP.NET Core server. Slightly better hot reload performance apart from solving the [errors seen](https://github.com/aspnet/AspNetCore/issues/7812) with the hot reload web sockets
 
 
-> NOTE: These templates were created using ASP.NET Core 3.0 _preview3_. You might want to udpate them to the full ASP.NET Core 3.0 once released or downgrade them to ASP.NET Core 2.2
+> NOTE: These templates were created using ASP.NET Core 2.2. You might want to udpate them to the full ASP.NET Core 3.0 once released
