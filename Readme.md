@@ -8,5 +8,3 @@ It contains 3 different ways to integrate an ASP.NET Core project with a project
 - **adapted-spa-template**. Adapts the official React SPA template and [its SPA middleware](https://github.com/aspnet/AspNetCore/tree/master/src/Middleware/SpaServices.Extensions/src/ReactDevelopmentServer) to start the Vue development server and proxy requests to it. Very similar to the template published by [Software Ateliers](https://github.com/SoftwareAteliers/asp-net-core-vue-starter).
 - **alternative-spa-template**. Variant of the earlier template where the Vue development server is the one proxying requests to the ASP.NET Core server. Slightly better hot reload performance apart from solving the [errors seen](https://github.com/aspnet/AspNetCore/issues/7812) with the hot reload web sockets
 
-
-> NOTE: These templates were created using ASP.NET Core 2.2. You might want to udpate them to the full ASP.NET Core 3.0 once released
