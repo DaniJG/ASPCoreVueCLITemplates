@@ -61,8 +61,15 @@ namespace VueSPATemplate
             // This redirects "/" requests to the SPA server, who in turn proxies api requests to the .NET server
             // Avoids issues with the hot reload web sockets
             if (env.IsDevelopment())
-            {                
+            {
                 app.UseVueDevelopmentServer();
+            }
+            else
+            {
+              app.UseSpa(spa =>
+              {
+                  spa.Options.SourcePath = "ClientApp";
+              });
             }
         }
     }
